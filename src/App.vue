@@ -1,17 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <img class="logo" alt="keeb logo" src="./assets/logo.png">
+  <h1>
+    Keebapp Webapp
+  </h1>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
-
 export default defineComponent({
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {}
 });
 </script>
 
@@ -23,5 +21,10 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  img.logo {
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  }
 }
+
 </style>
