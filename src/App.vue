@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" alt="keeb logo" src="./assets/logo.png">
+  <img class="logo" alt="keeb logo" src="./assets/logo.svg">
   <h1>
     Keebapp Webapp
   </h1>
@@ -26,5 +26,4 @@ export default defineComponent({
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   }
 }
-
 </style>
